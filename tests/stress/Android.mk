@@ -29,3 +29,6 @@ LOCAL_CERTIFICATE := shared
 LOCAL_INSTRUMENTATION_FOR := Launcher2
 
 include $(BUILD_PACKAGE)
+
+# Bundle into ATF package
+ATF_TEST_PACKAGES += LauncherTests
